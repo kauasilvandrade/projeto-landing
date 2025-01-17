@@ -1,0 +1,114 @@
+* {}
+
+body {}
+
+.container {}
+
+/* CABEÇALHO */
+.cabecalho {}
+
+.cabecalho__logo {}
+
+.cabecalho__logo h2 {}
+
+/* INFORMAÇÕES DE CONTATO */
+.cabecalho__infoContatos {}
+
+.cabecalho__infoContatos i {}
+
+.cabecalho__infoContatos a {}
+
+/* CONTEÚDO */
+.conteudo {}
+
+/* SEÇÃO DO SLIDE */
+.conteudo__secaoSlide {}
+
+.conteudo__secaoSlide h1 {}
+
+.conteudo__secaoSlide img {}
+
+/* SEÇÃO DE SERVIÇOS */
+.conteudo__nossosServivos {}
+
+.conteudo__nossosServivos h2 {}
+
+.nossosServicos__listaServicos {}
+
+.listaServicos__servico {}
+
+.listaServicos__servico img {}
+
+.listaServicos__servico h3 {}
+
+.listaServicos__servico p {}
+
+.conteudo__nossosServivos a {}
+
+/* SEÇÃO DOS NOSSOS PROJETOS */
+.conteudo__secaoProjetos {}
+
+.conteudo__secaoProjetos h2 {}
+
+.secaoProjetos__listaProjetos {}
+
+.listaProjetos__prejeto {}
+
+.listaProjetos__prejeto img {}
+
+.listaProjetos__prejeto span {}
+
+/* SEÇÃO DE CRIAÇÃO */  
+.conteudo__secaoCriacao {}
+
+.conteudo__secaoCriacao img {}
+
+.secaoCriacao__info {}
+
+.secaoCriacao__info h2 {}
+
+.secaoCriacao__info p {}
+
+.secaoCriacao__info a {}
+
+/* SEÇÃO DE HISTÓRIA */
+.conteudo__secaoHistoria {}
+.secaoHistoria__info {}
+
+.secaoHistoria__info img {}
+
+.secaoHistoria__info p {}
+
+.conteudo__secaoHistoria img {}
+
+/* SEÇÃO DA NOSSA EQUIPE */
+.conteudo__secaoNossaEquipe {}
+
+.secaoNossaEquipe__listaIntegrantes {}
+
+.listaIntegrantes__integrantes {}
+
+.listaIntegrantes__integrantes h3 {}
+
+.listaIntegrantes__integrantes span {}
+
+/* SEÇÃO DE FEDDBACK */
+.contuedo__secaoFeedback {}
+.contuedo__secaoFeedback h2 {}
+
+.contuedo__secaoFeedback p {}
+
+.contuedo__secaoFeedback span {}
+
+/* RODAPÉ */
+.rodape {}
+
+.rodape__falaConosco {}
+
+.rodape__falaConosco h2 {}
+
+.rodape__falaConosco address {}
+
+.rodape__falaConosco address p {}
+
+.rodape p {}
