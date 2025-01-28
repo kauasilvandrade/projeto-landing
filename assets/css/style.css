@@ -1,49 +1,158 @@
-* {}
+@charset "UTF-8";
 
-body {}
+:root {
+    --branco: #fff;
+    --preto: #000;
+    --cinza: #212020;
+    --cinza-claro: #BFBFBF;
+    --hover: #A0A7B9;
+    --azul: #2547A0;
+}
 
-.container {}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 114rem;
+}
 
 /* CABEÇALHO */
-.cabecalho {}
+.cabecalho {
+    background-color: var(--azul);
+    padding: 1rem 1.5rem;
+    color: var(--branco);
+}
+
+.cabecalho > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .cabecalho__logo {}
 
-.cabecalho__logo h2 {}
+.cabecalho__logo h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
 
 /* INFORMAÇÕES DE CONTATO */
-.cabecalho__infoContatos {}
+.cabecalho__navegacao {
+    display: flex;
+    align-items: center;
+    gap: 3.4rem;
+}
 
-.cabecalho__infoContatos i {}
+.cabecalho__navegacao i {
+    font-size: 1.3em;
+    cursor: pointer;
+}
 
-.cabecalho__infoContatos a {}
+.entreEmContato {
+    font-family: "Space Mono", serif;
+    background-color: var(--cinza-claro);
+    padding: 1rem 1.7rem;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    border-radius: 30px;
+    color: var(--preto);
+    transition: .3s;
+}
+
+.cabecalho__navegacao a:hover {
+    background-color: var(--hover);
+}
 
 /* CONTEÚDO */
 .conteudo {}
 
 /* SEÇÃO DO SLIDE */
-.conteudo__secaoSlide {}
+.conteudo__secaoSlide {
+    background-color: var(--azul);
+    padding-bottom: 2rem;
+}
 
-.conteudo__secaoSlide h1 {}
+.conteudo__secaoSlide h1, .conteudo__secaoSlide h2 {
+    color: var(--branco);
+    font-size: 5.5em;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 900;
+}
 
-.conteudo__secaoSlide img {}
+.conteudo__secaoSlide h1 {
+    padding-right: 11rem;
+    padding-top: 2rem;
+    line-height: 3rem;
+}
+
+.conteudo__secaoSlide h2 {
+    padding-right: 7rem;
+    padding-bottom: 9rem;
+}
+
+.conteudo__secaoSlide img {
+    width: 100%;
+    max-width: 75rem;
+    margin-left: 10rem;
+    display: block;
+}
 
 /* SEÇÃO DE SERVIÇOS */
-.conteudo__nossosServivos {}
+.conteudo__nossosServicos {
+    background-color: var(--cinza);
+    padding: 3.5rem 0rem 8rem 0rem;
+}
 
-.conteudo__nossosServivos h2 {}
+.conteudo__nossosServicos h2 {
+    color: var(--branco);
+    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 3rem;
+}
 
-.nossosServicos__listaServicos {}
+.nossosServicos__listaServicos {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
 
-.listaServicos__servico {}
+.listaServicos__servico {
+    background-color: var(--branco);
+    padding: 1.8rem 1.6rem;
+}
 
-.listaServicos__servico img {}
+.listaServicos__servico img {
+    width: 5rem;
+    margin-bottom: 10rem;
+}
 
-.listaServicos__servico h3 {}
+.listaServicos__servico h3 {
+    font-size: 1.6em;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
 
-.listaServicos__servico p {}
-
-.conteudo__nossosServivos a {}
+.listaServicos__servico p {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: var(--cinza);
+}
 
 /* SEÇÃO DOS NOSSOS PROJETOS */
 .conteudo__secaoProjetos {}
