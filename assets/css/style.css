@@ -71,7 +71,7 @@ body {
     transition: .3s;
 }
 
-.cabecalho__navegacao a:hover {
+.entreEmContato:hover {
     background-color: var(--hover);
 }
 
@@ -155,28 +155,68 @@ body {
 }
 
 /* SEÇÃO DOS NOSSOS PROJETOS */
-.conteudo__secaoProjetos {}
+.conteudo__secaoProjetos {
+    padding: 3.5rem 0rem 4rem 0rem;
+}
 
-.conteudo__secaoProjetos h2 {}
+.conteudo__secaoProjetos h2 {
+    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 3rem;
+}
 
-.secaoProjetos__listaProjetos {}
+.secaoProjetos__listaProjetos {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
 
 .listaProjetos__prejeto {}
 
 .listaProjetos__prejeto img {}
 
-.listaProjetos__prejeto span {}
+.listaProjetos__prejeto span {
+    display: block;
+    font-size: 1.3em;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
 
 /* SEÇÃO DE CRIAÇÃO */  
-.conteudo__secaoCriacao {}
+.conteudo__secaoCriacao {
+    background-color: var(--azul);
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    gap: 13rem;
+}
 
-.conteudo__secaoCriacao img {}
+.conteudo__secaoCriacao img {
+    width: 100%;
+    max-width: 23rem;
+}
 
-.secaoCriacao__info {}
+.secaoCriacao__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 43rem;
+}
 
-.secaoCriacao__info h2 {}
+.secaoCriacao__info h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
 
-.secaoCriacao__info p {}
+.secaoCriacao__info p {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
 
 .secaoCriacao__info a {}
 
