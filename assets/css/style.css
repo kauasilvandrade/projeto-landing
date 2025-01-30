@@ -221,43 +221,146 @@ body {
 .secaoCriacao__info a {}
 
 /* SEÇÃO DE HISTÓRIA */
-.conteudo__secaoHistoria {}
-.secaoHistoria__info {}
+.conteudo__secaoHistoria {
+    padding: 5rem;
+}
 
-.secaoHistoria__info img {}
+.conteudo__secaoHistoria h2 {
+    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 8rem;
+    text-align: center;
+}
 
-.secaoHistoria__info p {}
+.conteudo__secaoHistoria > .container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
 
-.conteudo__secaoHistoria img {}
+.secaoHistoria__info {
+    max-width: 46rem;
+    margin-bottom: 7rem;
+}
+
+.secaoHistoria__info img {
+    width: 21rem;
+    margin-bottom: 7rem;
+}
+
+.secaoHistoria__info p {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin-bottom: 1.5rem;
+    max-width: 35rem;
+}
+
+.conteudo__secaoHistoria > .container > img {
+    width: 42rem;
+    height: 48rem;
+}
 
 /* SEÇÃO DA NOSSA EQUIPE */
-.conteudo__secaoNossaEquipe {}
+.conteudo__secaoNossaEquipe {} 
 
-.secaoNossaEquipe__listaIntegrantes {}
+.conteudo__secaoNossaEquipe h2 {
+    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 8rem;
+}  
+
+.secaoNossaEquipe__listaIntegrantes {
+    display: flex;
+    gap: 1.3rem;
+    max-width: 113rem;
+    margin-bottom: 6rem;
+}
 
 .listaIntegrantes__integrantes {}
 
-.listaIntegrantes__integrantes h3 {}
+.listaIntegrantes__integrantes img {
+    width: 100%;
+}
 
-.listaIntegrantes__integrantes span {}
+.listaIntegrantes__integrantes h3 {
+    padding: 0.4rem 0;
+    font-weight: 900;
+}
+
+.listaIntegrantes__integrantes span {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
 
 /* SEÇÃO DE FEDDBACK */
-.contuedo__secaoFeedback {}
-.contuedo__secaoFeedback h2 {}
+.contuedo__secaoFeedback {
+    background-color: var(--azul);
+    padding: 5rem 5rem 8rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
 
-.contuedo__secaoFeedback p {}
+.contuedo__secaoFeedback h2 {
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 4rem;
+}
 
-.contuedo__secaoFeedback span {}
+.contuedo__secaoFeedback p {
+    font-weight: 900;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    line-height: 22px;
+    max-width: 54rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contuedo__secaoFeedback span {
+    letter-spacing: 2px;
+}
 
 /* RODAPÉ */
-.rodape {}
+.rodape {
+    padding: 9rem 9rem 9rem 9rem;
+    background-color: #10204b;
+    color: white;
+    position: relative;
+}
 
 .rodape__falaConosco {}
 
-.rodape__falaConosco h2 {}
+.rodape__falaConosco h2 {
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
 
-.rodape__falaConosco address {}
+.rodape__falaConosco address {
+    margin-bottom: 5rem;
+}
 
-.rodape__falaConosco address p {}
+.rodape__falaConosco address p {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
 
-.rodape p {}
+.rodape > .container > p {
+    position: absolute;
+    bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.rodape > .container > p a {
+    color: white;
+    text-decoration: underline;
+    color: grey;
+}
