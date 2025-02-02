@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1400px)  {
+    
+    /* SEÇÃO DO SLIDE */
+    .conteudo__secaoSlide {
+        padding-inline: 3rem;
+    }
+    .conteudo__secaoSlide img {
+        margin: auto;
+    }
+    .conteudo__secaoSlide h1, .conteudo__secaoSlide h2 {
+        padding-right: 0rem;
+        font-size: 4.5em;
+    }
+
+    /* SEÇÃO DE SERVIÇOS */
+    .nossosServicos__listaServicos {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .listaServicos__servico {
+        flex-grow: 1;
+        width: 100%;
+        max-width: 24rem;
+    }
+    
+    .entreEmContato {
+        margin: auto;
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 1150px)  {
+    /* SEÇÃO DE CRIAÇÃO */
+    .conteudo__secaoCriacao {
+        flex-direction: column;
+        padding: 3rem;
+        gap: 4rem;
+    }
+    .secaoCriacao__info a {
+        width: 100%;
+    }
+    
+    /* SEÇÃO HISTÓRIA */
+    .conteudo__secaoHistoria > .container {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .secaoHistoria__info {
+        max-width: 46rem;
+        margin-bottom: 2rem;
+    }
+    
+    /* SEÇÃO DA NOSSA EQUIPE */
+    .secaoNossaEquipe__listaIntegrantes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+    
+    .listaIntegrantes__integrantes {
+        max-width: 21rem;
+    }
+    
+    /* RODAPÉ */
+    .rodape {
+        padding: 4rem;
+    }
+    
+}    
+
+@media screen and (max-width: 780px) {
+    /* SEÇÃO DO SLIDE */
+    .conteudo__secaoSlide h1, .conteudo__secaoSlide h2 {
+        font-size: 2.5em;
+        text-align: left;
+    }
+    .conteudo__secaoSlide h2 {
+        padding-bottom: 1.5rem;
+    }
+
+    /* SEÇÃO DE SERVIÇOS */
+    .conteudo__nossosServicos h2, .conteudo__secaoProjetos h2, .conteudo__secaoNossaEquipe h2,.contuedo__secaoFeedback h2, .conteudo__secaoHistoria h2 {
+        text-align: left;
+        font-size: 2.5em;
+    }
+
+    /* SEÇÃO DOS NOSSOS PROJETOS */
+    .secaoProjetos__listaProjetos {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    /* SEÇÃO HISTÓRIA */
+    .conteudo__secaoHistoria {
+        padding: 3rem;
+    }
+
+    .conteudo__secaoHistoria > .container > img {
+        max-width: 42rem;
+        height: 48rem;
+        width: 100%;
+    }
+
+    /* SEÇÃO DE FEDDBACK */
+    .contuedo__secaoFeedback p {
+        font-size: 1.2em;
+    }
+
+    /* RODAPÉ */
+    .rodape__falaConosco h2 {
+        font-size: 2.2em;
+    }
+}
