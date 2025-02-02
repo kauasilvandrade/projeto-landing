@@ -30,6 +30,8 @@ body {
 
 /* CABEÇALHO */
 .cabecalho {
+    position: fixed;
+    width: 100%;
     background-color: var(--azul);
     padding: 1rem 1.5rem;
     color: var(--branco);
@@ -82,6 +84,7 @@ body {
 .conteudo__secaoSlide {
     background-color: var(--azul);
     padding-bottom: 2rem;
+    padding-top: 6rem;
 }
 
 .conteudo__secaoSlide h1, .conteudo__secaoSlide h2 {
