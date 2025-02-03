@@ -84,6 +84,8 @@
         position: relative;
         top: -0.4rem;
         z-index: 1;
+        background: transparent;
+        height: 2rem;
     }
     .cabecalho #btn-menu span {
         display: block;
@@ -120,7 +122,7 @@
         background-color: black;
         transform: rotate(-44deg);
         left: 1px;
-        top: -13px;
+        top: 3px;
     }
 
     .cabecalho__logo {
@@ -163,7 +165,7 @@
     .entreEmContato.ativado {
         margin: 3rem;
         background-color: var(--preto);
-        padding: 1rem 3.7rem;
+        padding: 1rem 2.7rem;
         font-size: 1.2em;
         color: var(--branco);
     }
@@ -216,3 +218,4 @@
         font-size: 2.2em;
     }
 }
+
