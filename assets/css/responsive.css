@@ -83,12 +83,14 @@
         cursor: pointer;
         position: relative;
         top: -0.4rem;
+        z-index: 1;
     }
     .cabecalho #btn-menu span {
         display: block;
-        border-top: 4px solid white;
+        background-color: white;
         width: 3.4rem;
     }
+
     .cabecalho #btn-menu span::before {
         content: '';
         display: block;
@@ -97,12 +99,74 @@
         background-color: white;
         margin: 13px 0;
         position: absolute;
+        transition: .4s;
+    }
+
+    .cabecalho #btn-menu span::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        position: absolute;
+        transition: .4s;
+    }
+    /* CLASSE ADICIONADA COM JAVASCRIPT */
+    .cabecalho #btn-menu span.ativado::after {
+        background-color: black;
+        transform: rotate(44deg);
+    }
+    .cabecalho #btn-menu span.ativado::before {
+        background-color: black;
+        transform: rotate(-44deg);
+        left: 1px;
+        top: -13px;
+    }
+
+    .cabecalho__logo {
+        z-index: 1;
     }
     .cabecalho__logo h2 {
         font-size: 1.4em;
     }
-    .cabecalho__navegacao {
+    .cabecalho__logo h2.ativado {
+        color: black;
+        transition: .3s;
+    }
+    
+    /* NAV */
+    .cabecalho__navegacao { 
         display: none;
+    }
+
+    .cabecalho__navegacao.ativado {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-content: flex-end;
+        padding-bottom: 3rem;
+        transition: .3s;
+    }
+    
+    .cabecalho__navegacao .icones.ativado {
+        gap: 1.4rem;
+        margin-bottom: 2rem;
+        color: var(--preto);
+    }
+
+    .entreEmContato.ativado {
+        margin: 0;
+        background-color: var(--preto);
+        padding: 1rem 3.7rem;
+        font-size: 1.2em;
+        color: var(--branco);
     }
 
     /* SEÇÃO DO SLIDE */
@@ -132,7 +196,6 @@
     .conteudo__secaoHistoria {
         padding: 3rem;
     }
-
     .conteudo__secaoHistoria > .container > img {
         max-width: 42rem;
         height: 48rem;
