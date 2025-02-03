@@ -43,6 +43,30 @@ body {
     align-items: center;
 }
 
+.cabecalho #btn-menu {
+    display: none;
+}
+/* .cabecalho #btn-menu {
+    cursor: pointer;
+    position: relative;
+    top: -0.4rem;
+}
+
+.cabecalho #btn-menu span {
+    display: block;
+    border-top: 4px solid white;
+    width: 3.4rem;
+}
+.cabecalho #btn-menu span::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    margin: 13px 0;
+    position: absolute;
+} */
+
 .cabecalho__logo {}
 
 .cabecalho__logo h2 {
@@ -60,6 +84,10 @@ body {
 .cabecalho__navegacao i {
     font-size: 1.3em;
     cursor: pointer;
+    transition: .3s;
+}
+.cabecalho__navegacao i:hover {
+    color: var(--hover);
 }
 
 .entreEmContato {
