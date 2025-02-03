@@ -157,12 +157,11 @@
     
     .cabecalho__navegacao .icones.ativado {
         gap: 1.4rem;
-        margin-bottom: 2rem;
         color: var(--preto);
     }
 
     .entreEmContato.ativado {
-        margin: 0;
+        margin: 3rem;
         background-color: var(--preto);
         padding: 1rem 3.7rem;
         font-size: 1.2em;
